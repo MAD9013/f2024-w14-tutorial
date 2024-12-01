@@ -1,0 +1,155 @@
+/* ---------- Card Group ---------- */
+
+.card-group__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.card-group__item {
+  display: flex;
+  container-type: inline-size;
+}
+
+/* ---------- Card Group - Flex ---------- */
+
+.card-group--flex {
+  .card-group__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .card-group__item {
+    flex: 1 1 15rem;
+  }
+}
+
+/* ---------- Card ---------- */
+
+.card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0.25rem 0.5rem #0002;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card--full-hover {
+  position: relative;
+  transition: all var(--transition);
+
+  .btn::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    inset: 0;
+  }
+
+  &:has(.btn:where(:hover, :focus-visible)) {
+    color: #000;
+    box-shadow: 0 0.5rem 0.75rem #0002;
+  }
+}
+
+.card__image img {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.card__content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  align-items: flex-start;
+  font-size: clamp(1rem, 5cqi, 1.5rem);
+}
+
+.card__title {
+  color: var(--color-blue);
+  margin-block-end: 0.5rem;
+  font-size: clamp(1.424rem, 10cqi, 3.157rem);
+}
+
+.card__text {
+  flex-grow: 2;
+}
+
+@container (min-width: 30em) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .card__image img {
+    aspect-ratio: unset;
+    height: 100%;
+  }
+
+  .card__content {
+    padding-inline-start: 0;
+  }
+}
+
+/* ---------- Card Group - Grid Simple ---------- */
+
+.card-group--grid-simple {
+  .card-group__list {
+    display: grid;
+    gap: 1.5rem;
+
+    @media only screen and (min-width: 45em) {
+      grid-template-columns: 1fr 1fr;
+
+      .card-group__item:last-child {
+        grid-column: span 2;
+      }
+    }
+
+    @media only screen and (min-width: 60em) {
+      grid-template-columns: 1fr 1fr 1fr;
+
+      .card-group__item:last-child {
+        grid-column: auto;
+      }
+    }
+  }
+}
+
+/* ---------- Card Group - 12 Column Grid ---------- */
+
+.card-group--12-col-grid {
+  .card-group__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.5rem;
+
+    > * {
+      grid-column: 1 / -1;
+    }
+
+    @media only screen and (min-width: 45em) {
+      .card-group__item {
+        grid-column: span 6;
+      }
+
+      /* Demo :where vs :is here */
+      .card-group__item:where(:last-child) {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media only screen and (min-width: 60em) {
+      .card-group__item {
+        grid-column: span 4;
+      }
+    }
+  }
+}

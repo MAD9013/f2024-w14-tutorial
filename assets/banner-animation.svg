@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="banner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 750">
+  <rect id="bg" width="1440" height="750" fill="#cff0ff" stroke-width="0"/>
+  <g id="sun">
+    <polygon id="sun-outer" points="311.17 525.06 290.09 544.31 303.73 569.39 276.87 579.06 279.86 607.46 251.34 606.15 243.26 633.53 217.42 621.39 199.46 643.57 180.21 622.49 155.13 636.13 145.46 609.27 117.06 612.26 118.37 583.74 90.98 575.66 103.13 549.82 80.95 531.86 102.03 512.61 88.39 487.53 115.25 477.86 112.26 449.46 140.78 450.77 148.86 423.39 174.69 435.53 192.66 413.35 211.91 434.43 236.99 420.79 246.66 447.65 275.06 444.66 273.75 473.18 301.13 481.26 288.99 507.1 311.17 525.06" fill="#e6bd6c" stroke="#d9af5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <circle id="sun-inner" cx="196.06" cy="528.46" r="81.66" fill="#e6e26c" stroke="#e3d666" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+  <g id="cloud-3">
+    <line x1="1326.78" y1="287.15" x2="1043.03" y2="287.15" fill="none" stroke="#a9d4e8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path d="m1292.46,287.15h-212c0-19.79,16.03-35.85,35.83-35.85,7.94,0,15.65,2.63,21.93,7.48,15.71-36.36,57.92-53.1,94.28-37.4,14.69,6.34,26.83,17.42,34.5,31.46,15.12,4.58,25.46,18.51,25.46,34.31Z" fill="#fff" stroke="#a9d4e8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+  <g id="cloud-2">
+    <line x1="823.17" y1="144.37" x2="539.42" y2="144.37" fill="none" stroke="#a9d4e8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path d="m788.85,144.37h-212c0-19.79,16.06-35.83,35.86-35.82,7.91,0,15.6,2.62,21.86,7.45,15.67-36.38,57.87-53.16,94.25-37.48,14.73,6.35,26.92,17.46,34.59,31.54,15.11,4.58,25.45,18.52,25.44,34.31Z" fill="#fff" stroke="#a9d4e8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+  <g id="cloud-1">
+    <line x1="360.05" y1="287.15" x2="76.3" y2="287.15" fill="none" stroke="#a9d4e8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path d="m325.73,287.15H113.73c0-19.79,16.03-35.85,35.83-35.85,7.94,0,15.65,2.63,21.93,7.48,15.67-36.38,57.87-53.16,94.25-37.48,14.73,6.35,26.92,17.46,34.59,31.54,15.1,4.6,25.41,18.53,25.4,34.31Z" fill="#fff" stroke="#a9d4e8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+  <path id="wind-3" d="m937.35,159.18h214.53c18.98,0,34.36-15.39,34.35-34.37s-15.39-34.36-34.37-34.35c-18.97,0-34.35,15.39-34.35,34.36s15.38,34.36,34.36,34.36h214.53" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="wind-2" d="m623.39,317.56h214.53c18.98,0,34.37-15.39,34.37-34.37s-15.39-34.37-34.37-34.37c-18.98,0-34.37,15.39-34.37,34.37h0c0,18.98,15.39,34.37,34.37,34.37h214.52" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="wind-1" d="m172.44,193.54h214.56c18.98,0,34.36-15.38,34.36-34.36s-15.38-34.36-34.36-34.36-34.36,15.38-34.36,34.36h0c0,18.98,15.38,34.36,34.36,34.36h214.49" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <g id="windmill-3">
+    <polygon id="windmill-stem" points="710.63 527.52 689.07 527.52 695.47 302.29 704.23 310.75 710.63 527.52" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <g id="windmill-fins-1">
+      <path d="m699.58,201.76v109l-15.76-15.76c-1.36-1.36-1.97-3.3-1.63-5.19l15.9-88.16c.07-.41.45-.69.86-.62.36.06.62.37.63.73Z" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="m605.2,365.25l94.38-54.5-5.77,21.54c-.5,1.86-1.87,3.35-3.68,4l-84.3,30.32c-.38.16-.82-.02-.98-.4-.15-.36,0-.78.35-.96Z" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="m794,365.25l-94.39-54.5,21.51-5.75c1.86-.5,3.84-.05,5.31,1.19l68.4,57.81c.35.23.44.69.21,1.04-.23.35-.69.44-1.04.21Z" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <circle cx="699.85" cy="310.75" r="10.54" fill="#dce7e7" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+  <g id="windmill-2">
+    <polygon id="windmill-stem-2" points="463.82 544.86 435.45 544.86 443.88 248.61 455.4 259.74 463.82 544.86" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <g id="windmill-fins-2">
+      <path d="m449.29,116.39v143.35l-20.74-20.74c-1.79-1.79-2.59-4.34-2.14-6.83l20.91-116c.13-.54.68-.86,1.21-.73.44.11.75.5.76.95Z" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="m325.14,331.42l124.15-71.68-7.59,28.33c-.66,2.44-2.47,4.41-4.85,5.27l-110.85,39.87c-.52.18-1.09-.1-1.27-.62-.15-.44.02-.92.41-1.17Z" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="m573.43,331.42l-124.14-71.68,28.33-7.59c2.45-.66,5.06-.07,7,1.56l90,76.09c.45.33.54.96.22,1.4-.33.45-.96.54-1.41.22h0Z" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <circle cx="449.64" cy="259.74" r="13.87" fill="#dce7e7" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+  <g id="hill-3">
+    <path d="m530.2,538.18c300.68-51.12,607.29-57.34,909.8-18.44v230.26h-909.8v-211.82Z" fill="#a9cc9d" stroke-width="0"/>
+    <path d="m530.2,538.18c300.68-51.12,607.29-57.34,909.8-18.44" fill="none" stroke="#a0c793" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+  <g id="hill-2">
+    <path d="m0,525c357.79-39.23,719.78-9.27,1066.25,88.24v136.76H0v-225Z" fill="#9cc290" stroke-width="0"/>
+    <path d="m0,525c357.79-39.23,719.78-9.27,1066.25,88.24" fill="none" stroke="#92bd84" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+  <g id="windmill-1">
+    <polygon id="windmill-stem-3" points="270.46 629.15 230.94 629.15 242.68 216.47 258.73 231.98 270.46 629.15" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <g id="windmill-fins-3">
+      <path d="m250.21,32.29v199.71l-28.88-28.89c-2.5-2.48-3.62-6.04-3-9.51l29.15-161.6c.16-.75.89-1.22,1.64-1.06.64.14,1.1.7,1.09,1.35Z" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="m77.28,331.82l172.93-99.82-10.57,39.46c-.91,3.41-3.43,6.15-6.75,7.34l-154.46,55.52c-.71.26-1.51-.1-1.77-.82-.24-.64.03-1.35.62-1.68Z" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="m423.15,331.82l-172.94-99.82,39.47-10.58c3.4-.91,7.04-.09,9.73,2.18l125.32,106c.54.54.55,1.41.01,1.95-.42.42-1.06.53-1.59.27Z" fill="#eff4f4" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <circle cx="250.7" cy="231.98" r="19.32" fill="#dce7e7" stroke="#c0c2c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+  <g id="hill-1">
+    <path d="m0,645.72c475.04-104.85,967.89-98.35,1440,19v85.28H0v-104.28Z" fill="#8bb27c" stroke="#46593e" stroke-miterlimit="10"/>
+    <path d="m0,645.72c475.04-104.85,967.89-98.35,1440,19" fill="none" stroke="#79a668" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+</svg>

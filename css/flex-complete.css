@@ -1,0 +1,106 @@
+/* ---------- Flex ---------- */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
+.box--hello {
+  /* flex: 1 1 10rem; */
+  flex: 1 1 20rem;
+}
+
+.box--there {
+  /* flex: 1 1 10rem; */
+  flex: 1 1 10rem;
+}
+
+.box--general {
+  /* flex: 1 1 10rem; */
+  flex: 2 1 15rem;
+}
+
+.box--kenobi {
+  /* flex: 1 1 10rem; */
+  flex: 0 1 7.5rem;
+}
+
+/* ---------- Navbar Revisit ---------- */
+
+.masthead {
+  background-color: var(--color-blue);
+}
+
+.masthead .container {
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.masthead__headline {
+  font-size: 1.5rem;
+  display: block;
+  margin: 0;
+}
+
+.masthead__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity var(--transition);
+
+  &:where(:hover, :focus) {
+    opacity: 0.75;
+  }
+}
+
+.masthead__icon {
+  width: 4rem;
+}
+
+.masthead__nav {
+  width: 100%;
+}
+
+.masthead__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.masthead__link {
+  display: block;
+  text-align: center;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+
+  &:where(:hover, :focus) {
+    background-color: var(--color-primary);
+  }
+}
+
+@media only screen and (min-width: 45em) {
+  .masthead .container {
+    flex-direction: unset;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+  }
+
+  .masthead__nav {
+    width: unset;
+  }
+
+  .masthead__list {
+    display: flex;
+  }
+
+  .masthead__link {
+    padding: 1.5rem;
+  }
+}
